@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:700");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+body{ text-align: center;
+  background-image: url(../img/fone.jpg);
+
+
+}
+  .figure{
+    border: 2px solid black;
+    margin:4px;
+    margin-bottom: 1em;
+    float: left;
+    width: 32%;
+    background:#fff;
+     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     background: -moz-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-moz-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+      background: -webkit-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-webkit-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+      background: -ms-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-ms-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+      background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+      background-size: 1em 1em;
+      background-color: #fff;
+     }
+.border{
+  height: 200px;
+
+border-radius: 1em;
+background-image: url(../img/1.jpg);
+margin-bottom: 3px;
+
+}
+price{
+  font-style: italic;
+  float: right;
+  text-shadow: 1px 1px black;
+  color: rgba(237, 14, 0, 0.84);
+  font-size: 17px;
+}
+price:hover{background-color: rgb(31, 167, 107);}
+.figure-caption{float: left;}
+.buy{float: right;
+background-color: radial-gradient( rgba(251, 6, 14, 0.87));
+border-radius: 5px;
+border: 1px double rgb(33, 57, 187);
+font-size: 18px;
+color: rgb(0, 0, 0)}
+.buy:active{background: rgb(93, 142, 113);}
+.buy:hover{background: rgb(32, 226, 5);}
+.foother{border: 2px double black;
+border-radius: 2px;}
+.contact{background-color: rgba(0, 0, 0, 0.94);
+border-radius: 10px;}
+.map{border: 1px dashed black;}
+.thumb img {
+     filter: none; /* IE6-9 */
+     -webkit-filter: grayscale(0);
+     border-radius:5px;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     padding:5px;
+   }
+   .thumb img:hover {
+     filter: gray; /* IE6-9 */
+     -webkit-filter: grayscale(1);
+   }
+   .thumb {
+     padding:5px;
+   }
